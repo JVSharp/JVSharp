@@ -11,9 +11,9 @@ Ingeniero Civil Informático, de Concepción, Chile.
 
 ---
 
-Hago software para negocios, casi siempre para resolver algo que alguien está haciendo a mano todos los días. Trabajo harto con WordPress y WooCommerce, armo herramientas internas en Python y en mis ratos libres hago juegos en Godot.
+Hago software para negocios, casi siempre para resolver algo que alguien está haciendo a mano todos los días. Trabajo harto con WordPress y WooCommerce, y armo herramientas internas en Python.
 
-Antes de programar en serio me pasé años jugando Overwatch competitivo y llegué a nivel selección chilena. De ahí me quedó la costumbre de mirar qué salió mal, ajustar y volver a intentarlo hasta que funcione, que al final es lo mismo que hago con el código.
+Fuera del código, llegué a los rangos más altos en Overwatch, Hearthstone y Counter-Strike, y de chico jugué ajedrez competitivo. Me gusta entender cómo funciona algo hasta encontrarle la vuelta, y eso me sirve mucho programando.
 
 ## En qué ando
 
@@ -27,7 +27,7 @@ Aparte de eso:
 
 - **[jvsharp.dev](https://jvsharp.dev)**, mi portafolio, hecho en React y desplegado en Vercel.
 - **yoink_it**, un script en Python que revisa sitios WordPress/WooCommerce y te avisa qué está roto antes de que lo note un cliente.
-- Varios **juegos móviles en Godot**: juegos de carrete para jugar con un solo celular, un idle de chanchitos buscando trufas y un runner de piratas. Ninguno publicado todavía, pero van.
+- Algunos **juegos móviles en Godot**, todavía sin publicar.
 
 ## Con qué trabajo
 
