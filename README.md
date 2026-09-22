@@ -2,9 +2,7 @@
 
 # Hola, soy John 👋
 
-**Ingeniero Civil Informático · Concepción, Chile**
-
-### Construyo software que conecta sistemas que no fueron hechos para hablarse.
+Ingeniero Civil Informático, de Concepción, Chile.
 
 [![Portafolio](https://img.shields.io/badge/jvsharp.dev-0F3D91?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jvsharp.dev)
 [![Email](https://img.shields.io/badge/javsharp@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:javsharp@gmail.com)
@@ -13,65 +11,25 @@
 
 ---
 
+Hago software para negocios, casi siempre para resolver algo que alguien está haciendo a mano todos los días. Trabajo harto con WordPress y WooCommerce, armo herramientas internas en Python y en mis ratos libres hago juegos en Godot.
+
+Antes de programar en serio me pasé años jugando Overwatch competitivo y llegué a nivel selección chilena. De ahí me quedó la costumbre de mirar qué salió mal, ajustar y volver a intentarlo hasta que funcione, que al final es lo mismo que hago con el código.
+
 ## En qué ando
 
-Mi trabajo casi siempre empieza igual: alguien hace a mano algo que una
-máquina debería hacer sola, y nadie se atreve a automatizarlo porque **si se
-rompe, se rompe la venta**. Ahí entro yo.
-
-🔌 **Integraciones** — ERPs antiguos, sin API, conversando con tiendas online  
-🛒 **WordPress / WooCommerce** — catálogos grandes, mantención, arreglos urgentes  
-🧰 **Herramientas internas** — paneles que un operador no técnico usa sin miedo  
-🎮 **Godot** — juegos móviles que publico por mi cuenta
-
----
-
-## Asibridge — mi proyecto principal
+**[Asibridge](https://github.com/JVSharp/asibridge)** es mi proyecto principal. Una tienda vendía online mientras su inventario real estaba en un ERP de oficina sin API, así que el stock se pasaba a mano y a veces se vendían cosas que ya no quedaban en bodega. Asibridge lee los informes del ERP, cruza los códigos con los de la tienda (que obvio no coinciden) y propone los cambios de stock. Alguien los revisa y recién ahí se publican. Hoy corre todos los días en el PC de la tienda.
 
 [![Asibridge](https://raw.githubusercontent.com/JVSharp/asibridge/main/docs/img/inicio.png)](https://github.com/JVSharp/asibridge)
 
-Una tienda vendía por WooCommerce mientras su inventario real vivía en un ERP
-de oficina **sin API**. El stock se copiaba a mano, y lo que no se alcanzaba a
-copiar se vendía sin existir en bodega.
+Está hecho con FastAPI y SQLite, tiene más de 300 tests y el código está abierto con licencia no comercial.
 
-**[Asibridge](https://github.com/JVSharp/asibridge)** lee los informes del ERP,
-empareja los códigos de ambos sistemas —que nunca coinciden—, calcula qué
-stock corresponde publicar y propone los cambios. Publicar sigue siendo una
-decisión, no un accidente.
+Aparte de eso:
 
-`FastAPI` · `SQLite` · `rapidfuzz` · **300+ tests** · **en producción**
+- **[jvsharp.dev](https://jvsharp.dev)**, mi portafolio, hecho en React y desplegado en Vercel.
+- **yoink_it**, un script en Python que revisa sitios WordPress/WooCommerce y te avisa qué está roto antes de que lo note un cliente.
+- Varios **juegos móviles en Godot**: juegos de carrete para jugar con un solo celular, un idle de chanchitos buscando trufas y un runner de piratas. Ninguno publicado todavía, pero van.
 
-> Escrituras restringidas por allowlist, auditoría de cada acción y un PRD por
-> cada bloque: qué duele, cómo se mide, qué queda fuera y qué puede salir mal.
-
----
-
-## Otros proyectos
-
-| Proyecto | Qué es | Stack |
-|---|---|---|
-| **[jvsharp.dev](https://jvsharp.dev)** | Mi portafolio — diseñado, construido y desplegado por mí | `React` `Vite` `Tailwind` `Vercel` |
-| **yoink_it** | Auditoría automática de sitios WordPress/WooCommerce: encuentra lo que está mal antes que el cliente | `Python` |
-| **Juegos en Godot** | Varios títulos móviles sobre un motor propio compartido entre apps | `Godot 4.5` `GDScript` |
-
----
-
-## Cómo trabajo
-
-**Primero el problema, después el código.** Cada bloque de Asibridge tiene su
-PRD antes de la primera línea. Están todos públicos en el repo.
-
-**Reversibilidad como requisito.** Nada que toque el negocio de alguien se
-ejecuta sin aprobación, sin auditoría y sin forma de volver atrás. Prefiero
-bloquear un cambio legítimo antes que publicar uno malo.
-
-**Tests donde duele.** No cobertura por la cobertura: pruebas sobre los
-contratos que, si se rompen, cuestan plata — escrituras a la API, reglas de
-negocio y cada caso que ya falló una vez en producción.
-
----
-
-## Stack
+## Con qué trabajo
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -83,16 +41,6 @@ negocio y cada caso que ya falló una vez en producción.
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
----
+## Hablemos
 
-<div align="center">
-
-### ¿Tienes un sistema que no habla con otro?
-
-Integraciones, automatización y sitios que no se caen.
-
-**[javsharp@gmail.com](mailto:javsharp@gmail.com)** · **[jvsharp.dev](https://jvsharp.dev)**
-
-<sub>Disponible para proyectos freelance y colaboraciones</sub>
-
-</div>
+Si tienes un proceso que se hace a mano y te gustaría automatizarlo, o necesitas una mano con tu tienda, escríbeme a **[javsharp@gmail.com](mailto:javsharp@gmail.com)**. También estoy en [jvsharp.dev](https://jvsharp.dev).
