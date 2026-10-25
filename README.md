@@ -13,7 +13,7 @@ Ingeniero Civil Informático, de Concepción, Chile.
 
 Hago software para negocios, casi siempre para resolver algo que alguien está haciendo a mano todos los días. Trabajo harto con WordPress y WooCommerce, y armo herramientas internas en Python.
 
-Fuera del código, llegué a los rangos más altos en Overwatch, Hearthstone y Counter-Strike, y de chico jugué ajedrez competitivo. Me gusta entender cómo funciona algo hasta encontrarle la vuelta, y eso me sirve mucho programando.
+Fuera del código, llegué a los rangos más altos en distintos juegos competitivos, y de chico jugué ajedrez competitivo. Me gusta entender cómo funciona algo hasta encontrarle la vuelta, y eso me sirve mucho programando.
 
 ## En qué ando
 
